@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityInsertarSW">
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insertar Producto"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_margin="25sp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/edtNombreProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre Producto"
+        android:layout_margin="10sp"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/edtDescripcionProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripcion Producto"
+        android:layout_margin="10sp"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/edtCategoriaProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Categoria Producto"
+        android:layout_margin="10sp"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/edtPresioProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Presio Producto"
+        android:layout_margin="10sp"
+        android:textSize="25sp"
+        android:inputType="number"
+        />
+    <Button
+        android:id="@+id/btnInsertarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Insertar Producto"
+        android:textSize="25sp"
+        android:backgroundTint="#00BFA5"
+        android:onClick="onClick"
+        />
+
+</LinearLayout>
